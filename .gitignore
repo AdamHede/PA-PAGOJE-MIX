@@ -1,0 +1,82 @@
+# ------------------------------
+# PA-PAGØJE festival visuals project
+# Ignore generated renders, local environments, and tool caches.
+# ------------------------------
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dylib
+*.egg-info/
+.eggs/
+build/
+dist/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+.cache/
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+apple_stage_env/
+.Python
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# AI assistant / helper artifacts
+.claude/
+
+# Render queue state and logs
+render_queue.json
+render_queue_*.log
+mix_progress.log
+full_mix_run.log
+batch_mix_run.log
+phase1_track*.log
+parrot_render.log
+youtube_encode.log
+rms_log.txt
+
+# Generated visual assets
+visuals_phase1/
+visuals_all_tracks/
+frames_parrot/
+mix_workspace/
+render_outputs/
+pyCrossfade/
+
+# Exported previews and scratch media
+/*.mp3
+/*.wav
+PA-PAGOJE_Festival_Mix_FINAL_VIDEO.mp4
+PA-PAGOJE_Festival_Mix_MASTER.mp4
+PA-PAGOJE_Festival_Mix_MASTER_YouTube.mp4
+parrot_visual_full.mp4
+parrot_preview_16s.mp4
+test_visual_*.mp4
+test_visual_*.wav
+test_visual_*.mp3
+temp_mix_*.mp3
+batch_temp_*.wav
+test_mix_*.wav
+test_segment_*.wav
+test_many.wav
+pair_test.wav
+concat_list.txt
+track_analysis.json
